@@ -1,4 +1,4 @@
-<b>Ссылка на сайт -  </b>
+<b>Ссылка на сайт - https://kirillrusacoff.github.io/underfloor-heating/ </b>
 
 ********************
 Adaptive, cross-browser, valid layout of the landing page based on the layout from Figma. 
