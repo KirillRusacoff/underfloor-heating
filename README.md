@@ -20,3 +20,4 @@ The work is optimized for Google Page Speed (98%).
 Работа оптимизирована под  Google Page Speed(98%).
 
 ********************
+![Desktop (1)](https://github.com/KirillRusacoff/underfloor-heating/assets/121468262/177d5c52-477b-405a-9811-b477ea09313c)
