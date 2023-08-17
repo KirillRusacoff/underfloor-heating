@@ -1,0 +1,492 @@
+@charset "UTF-8";
+/* line 7, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_vars.scss */ .block span, .form__title, .column span, .services__subtitle, .contacts__subtitle { font-size: 24px; line-height: 1.3; /* Desctop */ /* Tablet */ }
+
+/* line 11, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_vars.scss */ .block span strong, .form__title strong, .column span strong, .services__subtitle strong, .contacts__subtitle strong { font-weight: 800; }
+
+@media (max-width: 1499px) { /* line 7, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_vars.scss */ .block span, .form__title, .column span, .services__subtitle, .contacts__subtitle { font-size: 20px; } }
+
+@media (max-width: 1199px) { /* line 7, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_vars.scss */ .block span, .form__title, .column span, .services__subtitle, .contacts__subtitle { font-size: 16px; } }
+
+@font-face { font-family: 'Montserrat'; src: url("./../fonts/montserrat/Montserrat-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Montserrat'; src: url("./../fonts/montserrat/Montserrat-Light.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Montserrat'; src: url("./../fonts/montserrat/Montserrat-ExtraBold.woff2") format("woff2"); font-weight: bold; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Montserrat'; src: url("./../fonts/montserrat/Montserrat-Regular.woff2") format("woff2"); font-weight: normal; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Montserrat'; src: url("./../fonts/montserrat/Montserrat-Bold.woff2") format("woff2"); font-weight: bold; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Montserrat'; src: url("./../fonts/montserrat/Montserrat-Black.woff2") format("woff2"); font-weight: 900; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Montserrat'; src: url("./../fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Roboto'; src: url("./../fonts/roboto/Roboto-Regular.woff2") format("woff2"); font-weight: normal; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Roboto'; src: url("./../fonts/roboto/Roboto-Bold.woff2") format("woff2"); font-weight: bold; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Roboto'; src: url("./../fonts/roboto/Roboto-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ *, *::before, *::after { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* line 5, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ h1, h2, h3, h4, h5, h6, p { font-weight: normal; margin: 0; padding: 0; }
+
+/* line 11, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ ul, li { margin: 0; padding: 0; list-style-type: none; }
+
+/* line 17, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ a { color: inherit; text-decoration: none; -webkit-transition: all .2s ease-in; transition: all .2s ease-in; }
+
+/* line 23, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ a:hover { color: rgba(79, 149, 255, 0.7); text-decoration: underline; }
+
+/* line 29, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ img { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; }
+
+/* line 35, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ html, body { height: 100%; margin: 0; padding: 0; width: 100%; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 1.4; color: #000; scroll-behavior: smooth; overflow-x: hidden; }
+
+/* line 48, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ *::-webkit-input-placeholder { margin: 0; padding: 0; border: none; font-family: inherit; font-size: inherit; } *::-moz-placeholder { margin: 0; padding: 0; border: none; font-family: inherit; font-size: inherit; } *:-ms-input-placeholder { margin: 0; padding: 0; border: none; font-family: inherit; font-size: inherit; } *::-ms-input-placeholder { margin: 0; padding: 0; border: none; font-family: inherit; font-size: inherit; } input, textarea, *::placeholder { margin: 0; padding: 0; border: none; font-family: inherit; font-size: inherit; }
+
+/* line 58, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ textarea:focus, input:focus { outline: none; }
+
+/* line 62, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ button { padding: 0; border: none; color: inherit; cursor: pointer; }
+
+/* line 69, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ .container { max-width: 1500px; margin: 0 auto; padding: 0 15px; /* Desctop */ /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 1499px) { /* line 69, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ .container { max-width: 1200px; } }
+
+@media (max-width: 1199px) { /* line 69, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ .container { max-width: 900px; } }
+
+@media (max-width: 899px) { /* line 69, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ .container { max-width: 600px; } }
+
+@media (max-width: 599px) { /* line 69, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/base/_base.scss */ .container { max-width: 100%; } }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_logo.scss */ .logo { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 5px; -moz-column-gap: 5px; column-gap: 5px; /* Mobile */ /* Mobile XS */ }
+
+/* line 7, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_logo.scss */ .logo__wrapper { width: 77px; height: 77px; overflow: hidden; }
+
+/* line 13, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_logo.scss */ .logo span { font-size: 64px; font-weight: 900; line-height: 1.09; letter-spacing: 3.84px; /* Desctop */ /* Tablet */ }
+
+@media (max-width: 1499px) { /* line 13, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_logo.scss */ .logo span { font-size: 48px; } }
+
+@media (max-width: 1199px) { /* line 13, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_logo.scss */ .logo span { font-size: 38px; } }
+
+@media (max-width: 899px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_logo.scss */ .logo { -ms-flex-item-align: start; align-self: flex-start; } }
+
+@media (max-width: 599px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_logo.scss */ .logo { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; } }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_titles.scss */ .title { font-size: 48px; line-height: 1.45; /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+/* line 5, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_titles.scss */ .title strong { font-weight: 800; }
+
+@media (max-width: 1199px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_titles.scss */ .title { font-size: 38px; } }
+
+@media (max-width: 899px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_titles.scss */ .title { font-size: 32px; } }
+
+@media (max-width: 599px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_titles.scss */ .title { font-size: 24px; } }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_block.scss */ .block { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 23px; -moz-column-gap: 23px; column-gap: 23px; /* Tablet */ }
+
+/* line 6, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_block.scss */ .block img { width: 55px; height: 51px; }
+
+@media (max-width: 1199px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_block.scss */ .block { -webkit-column-gap: 10px; -moz-column-gap: 10px; column-gap: 10px; } }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_buttons.scss */ .button { display: inline-block; height: 80px; padding: 0 63px; border-radius: 10px; background: -webkit-gradient(linear, left bottom, left top, from(rgba(211, 225, 245, 0.3)), to(rgba(211, 225, 245, 0.3))), #0067C5; background: linear-gradient(0deg, rgba(211, 225, 245, 0.3) 0%, rgba(211, 225, 245, 0.3) 100%), #0067C5; font-size: 20px; font-weight: 700; line-height: 80px; -webkit-transition: all .2s ease-in; transition: all .2s ease-in; /* Tablet */ }
+
+/* line 15, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_buttons.scss */ .button:hover, .button:focus { background: #212edd; }
+
+/* line 19, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_buttons.scss */ .button:active { background: #0112ff; }
+
+@media (max-width: 1199px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_buttons.scss */ .button { height: 60px; padding: 0 40px; font-size: 18px; line-height: 60px; } }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 70px; padding: 40px 60px; border-radius: 10px; background-color: #fff; -webkit-box-shadow: 2px -2px 2px rgba(204, 234, 240, 0.7); box-shadow: 2px -2px 2px rgba(204, 234, 240, 0.7); /* Tablet */ /* Mobile */ }
+
+/* line 13, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card:last-child { margin-bottom: 0; }
+
+@media (max-width: 1199px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card { margin-bottom: 50px; padding: 20px 45px; } }
+
+@media (max-width: 899px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; row-gap: 20px; } }
+
+/* line 30, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__desc { max-width: 540px; }
+
+/* line 33, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__desc span { position: relative; display: block; margin-left: 80px; margin-bottom: 67px; font-size: 24px; line-height: 1.3; /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+/* line 43, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__desc span:last-child { margin-bottom: 0; }
+
+@media (max-width: 1199px) { /* line 33, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__desc span { margin-bottom: 40px; font-size: 20px; } }
+
+@media (max-width: 899px) { /* line 33, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__desc span { margin-bottom: 30px; } }
+
+@media (max-width: 599px) { /* line 33, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__desc span { font-size: 16px; margin-left: 40px; } }
+
+/* line 65, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__desc span:before { content: ''; position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); left: -80px; width: 55px; height: 55px; background-image: url("./../img/icons/arrow.svg"); background-size: cover; /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 899px) { /* line 65, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__desc span:before { left: -60px; width: 35px; height: 35px; } }
+
+@media (max-width: 599px) { /* line 65, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__desc span:before { left: -40px; } }
+
+/* line 94, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__title { margin-bottom: 54px; font-family: 'Roboto', sans-serif; font-size: 24px; font-weight: 800; line-height: 1.3; letter-spacing: 2.28px; /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 1199px) { /* line 94, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__title { margin-bottom: 40px; } }
+
+@media (max-width: 899px) { /* line 94, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__title { text-align: center; } }
+
+@media (max-width: 599px) { /* line 94, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__title { font-size: 20px; } }
+
+/* line 119, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__img { -ms-flex-negative: 0; flex-shrink: 0; width: 632px; height: 394px; margin-left: 20px; border-radius: 10px; overflow: hidden; /* Desctop */ /* Tablet */ /* Mobile XS */ }
+
+@media (max-width: 1499px) { /* line 119, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__img { width: 532px; height: 394px; } }
+
+@media (max-width: 1199px) { /* line 119, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__img { width: 395px; height: 295px; } }
+
+@media (max-width: 599px) { /* line 119, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_cards.scss */ .card__img { width: 270px; height: 195px; } }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form { position: relative; width: 604px; padding: 55px 84px 81px; margin-left: 15px; background-image: url("./../img/images/form-img.webp"); background-size: cover; border-radius: 10px; /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 1199px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form { padding: 40px 50px 50px; } }
+
+@media (max-width: 899px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form { width: 525px; padding: 50px; } }
+
+@media (max-width: 599px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form { max-width: 270px; padding: 30px 40px 40px; } }
+
+/* line 28, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(1, 10, 32, 0.7); }
+
+/* line 40, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form input { margin-bottom: 20px; /* Mobile XS */ }
+
+/* line 43, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form input:last-of-type { margin-bottom: 55px; }
+
+@media (max-width: 599px) { /* line 40, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form input { width: 100%; } }
+
+/* line 53, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form .button { width: 436px; margin-bottom: 20px; font-size: 16px; /* Mobile XS */ }
+
+@media (max-width: 599px) { /* line 53, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form .button { width: 100%; height: 50px; padding: 0 10px; font-size: 8px; line-height: 50px; } }
+
+/* line 70, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form--mini { width: 525px; /* Mobile XS */ }
+
+@media (max-width: 599px) { /* line 70, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form--mini { max-width: 270px; } }
+
+/* line 82, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini input:last-of-type { margin-bottom: 20px; }
+
+/* line 87, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini button { width: 340px; }
+
+/* line 92, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__content { position: relative; color: #fff; text-align: center; }
+
+/* line 99, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__title { margin-bottom: 9px; }
+
+/* line 105, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini .form__title { margin-bottom: 22px; }
+
+/* line 109, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__text { margin-bottom: 9px; line-height: 1.3; }
+
+/* line 114, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__text a { text-decoration: underline; }
+
+/* line 118, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__text:nth-of-type(3) { margin-bottom: 53px; /* Mobile XS */ }
+
+@media (max-width: 599px) { /* line 118, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__text:nth-of-type(3) { margin-bottom: 25px; } }
+
+/* line 127, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__text:last-of-type { padding-top: 28px; border-top: 1px solid #fff; }
+
+/* line 133, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini .form__text { margin-bottom: 85px; /* Tablet */ /* Mobile XS */ }
+
+@media (max-width: 1199px) { /* line 133, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini .form__text { margin-bottom: 55px; } }
+
+@media (max-width: 599px) { /* line 133, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini .form__text { margin-bottom: 40px; } }
+
+/* line 147, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__input { width: 436px; height: 76px; padding: 0 15px; border-radius: 10px; background-color: rgba(243, 245, 250, 0.5); font-weight: 600; color: #fff; /* Mobile XS */ }
+
+/* line 158, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__input-attachment { /* Mobile XS */ }
+
+@media (max-width: 599px) { /* line 158, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__input-attachment { display: none; } }
+
+/* line 165, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__input::-webkit-input-placeholder { color: inherit; } .form__input::-moz-placeholder { color: inherit; } .form__input:-ms-input-placeholder { color: inherit; } .form__input::-ms-input-placeholder { color: inherit; } .form__input::placeholder { color: inherit; }
+
+@media (max-width: 599px) { /* line 147, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__input { height: 50px; font-size: 10px; line-height: 50px; } }
+
+/* line 178, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini .form__input { width: 100%; /* Mobile XS */ }
+
+@media (max-width: 599px) { /* line 178, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini .form__input { max-width: 100%; } }
+
+/* line 187, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__icons { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 24px; -moz-column-gap: 24px; column-gap: 24px; margin-top: 25px; }
+
+/* line 195, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__icons img { width: 50px; height: 50px; }
+
+/* line 199, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form__icons img:hover { opacity: 0.7; }
+
+/* line 205, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini .button { width: 100%; }
+
+/* line 209, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_form.scss */ .form.form--mini .button__consent { width: 100%; }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_column.scss */ .column { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 24px; -moz-column-gap: 24px; column-gap: 24px; /* Mobile XS */ }
+
+/* line 6, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_column.scss */ .column img { width: 153px; height: auto; /* Tablet */ }
+
+@media (max-width: 1199px) { /* line 6, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_column.scss */ .column img { width: 120px; } }
+
+/* line 19, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_column.scss */ .column span strong { font-weight: 800; }
+
+@media (max-width: 599px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_column.scss */ .column { -webkit-column-gap: 15px; -moz-column-gap: 15px; column-gap: 15px; text-align: left; } }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 58px; -moz-column-gap: 58px; column-gap: 58px; /* Mobile */ /* Mobile XS */ }
+
+/* line 6, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__icons { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-column-gap: 32px; -moz-column-gap: 32px; column-gap: 32px; }
+
+/* line 10, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__icons img { width: 50px; height: 50px; }
+
+/* line 14, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__icons img:hover { opacity: 0.7; }
+
+@media (max-width: 899px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; row-gap: 20px; -ms-flex-item-align: end; align-self: flex-end; } }
+
+@media (max-width: 599px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; } }
+
+/* line 32, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__data { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; row-gap: 4px; font-weight: 300; line-height: 1.3; /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 899px) { /* line 32, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__data { -webkit-box-align: center; -ms-flex-align: center; align-items: center; } }
+
+@media (max-width: 599px) { /* line 32, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__data { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; } }
+
+/* line 50, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__data span { position: relative; /* Mobile XS */ }
+
+@media (max-width: 599px) { /* line 50, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__data span { font-size: 14px; } }
+
+/* line 58, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__data span::before { content: ''; position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); left: -12px; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background-color: #02FF39; }
+
+/* line 73, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__data a { font-weight: 600; }
+
+/* line 77, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__data button { display: inline-block; background-color: transparent; font-weight: 300; font-size: 16px; text-align: left; -webkit-transition: all .2s ease-in; transition: all .2s ease-in; }
+
+/* line 88, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact__data button:hover { color: rgba(79, 149, 255, 0.7); text-decoration: underline; }
+
+/* line 95, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .contact--down { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; row-gap: 30px; }
+
+/* line 101, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_contact.scss */ .footer .logo { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_consent.scss */ .consent { position: fixed; top: 0; left: 0; z-index: 4; width: 100%; height: 100%; display: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: rgba(0, 0, 0, 0.85); /* Mobile XS */ }
+
+/* line 16, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_consent.scss */ .consent--active { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+@media (max-width: 525px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_consent.scss */ .consent { font-size: 12px; } }
+
+/* line 26, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_consent.scss */ .consent__wrapper { position: relative; width: 600px; padding: 20px; background-color: #fff; border: 4px double rgba(79, 149, 255, 0.7); line-height: 1.3; }
+
+/* line 37, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_consent.scss */ .consent__cross { position: absolute; top: 5px; right: 5px; width: 20px; height: 20px; background-image: url("./../img/icons/cross.svg"); background-color: transparent; }
+
+/* line 49, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_consent.scss */ .button__consent { display: inline-block; background-color: transparent; font-size: inherit; -webkit-transition: all .2s ease-in; transition: all .2s ease-in; }
+
+/* line 57, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/blocks/_consent.scss */ .button__consent:hover { color: rgba(79, 149, 255, 0.7); text-decoration: underline; }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header { position: relative; background-image: url("./../img/images/header-bg.webp"); background-size: cover; /* Mobile XS */ }
+
+@media (max-width: 599px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header { text-align: left; } }
+
+/* line 11, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header::before { content: ''; position: absolute; top: 0; left: 0; z-index: 2; width: 100%; height: 100%; background-color: rgba(1, 10, 32, 0.7); }
+
+/* line 25, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__wrapper { position: relative; z-index: 3; color: #fff; }
+
+/* line 31, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 43px; -moz-column-gap: 43px; column-gap: 43px; padding: 57px 0 40px; /* Desctop */ /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 1499px) { /* line 31, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__top { padding: 30px 0; } }
+
+@media (max-width: 1199px) { /* line 31, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__top { -webkit-column-gap: 30px; -moz-column-gap: 30px; column-gap: 30px; } }
+
+@media (max-width: 899px) { /* line 31, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__top { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-column-gap: 0; -moz-column-gap: 0; column-gap: 0; padding: 15px 0; } }
+
+@media (max-width: 599px) { /* line 31, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__top { row-gap: 20px; } }
+
+/* line 62, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__online { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 53px; -moz-column-gap: 53px; column-gap: 53px; /* Desctop */ /* Tablet */ }
+
+/* line 67, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__online-wrapper { width: 70px; height: 71px; overflow: hidden; }
+
+/* line 73, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__online-text { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-size: 14px; font-weight: 300; line-height: 1.3; }
+
+/* line 82, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__online-text span:first-child { position: relative; font-weight: 600; }
+
+/* line 86, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__online-text span:first-child::before { content: ''; position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); left: -12px; width: 8px; height: 8px; border-radius: 50%; background-color: #02FF39; }
+
+@media (max-width: 1499px) { /* line 62, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__online { -webkit-column-gap: 30px; -moz-column-gap: 30px; column-gap: 30px; } }
+
+@media (max-width: 1199px) { /* line 62, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__online { display: none; } }
+
+/* line 115, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__nav { padding: 20px 0; border-top: 1px solid #ACACAC; border-bottom: 1px solid #ACACAC; }
+
+/* line 121, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__nav-list { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 38px; -moz-column-gap: 38px; column-gap: 38px; font-family: 'Roboto', sans-serif; font-weight: 500; /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 899px) { /* line 121, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__nav-list { -ms-flex-pack: distribute; justify-content: space-around; row-gap: 20px; -ms-flex-wrap: wrap; flex-wrap: wrap; } }
+
+@media (max-width: 599px) { /* line 139, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__nav-list li { width: 100%; text-align: center; } }
+
+/* line 146, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__content { padding: 44px 0 120px; /* Desctop */ /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 1499px) { /* line 146, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__content { padding-bottom: 100px; } }
+
+@media (max-width: 1199px) { /* line 146, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__content { padding-bottom: 80px; } }
+
+@media (max-width: 899px) { /* line 146, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__content { padding: 60px 0; text-align: center; } }
+
+@media (max-width: 599px) { /* line 146, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__content { padding: 40px 0; } }
+
+/* line 172, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__title { max-width: 800px; margin-bottom: 40px; /* Mobile XS */ }
+
+@media (max-width: 599px) { /* line 172, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__title { margin-bottom: 30px; } }
+
+/* line 182, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__subtitle { margin-bottom: 56px; font-size: 20px; line-height: 1.3; /* Mobile XS */ }
+
+/* line 188, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__subtitle strong { font-weight: 800; }
+
+@media (max-width: 599px) { /* line 182, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__subtitle { margin-bottom: 30px; } }
+
+/* line 198, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__blocks { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-column-gap: 60px; -moz-column-gap: 60px; column-gap: 60px; margin-bottom: 117px; /* Desctop */ /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 1499px) { /* line 198, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__blocks { -webkit-column-gap: 30px; -moz-column-gap: 30px; column-gap: 30px; } }
+
+@media (max-width: 1199px) { /* line 198, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__blocks { -webkit-column-gap: 20px; -moz-column-gap: 20px; column-gap: 20px; } }
+
+@media (max-width: 899px) { /* line 198, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__blocks { max-width: 380px; margin: 0 auto; margin-bottom: 60px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; row-gap: 20px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } }
+
+@media (max-width: 599px) { /* line 198, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_header.scss */ .header__blocks { margin-bottom: 30px; } }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_services.scss */ .services { position: relative; padding: 120px 0; background-color: #F3F5FA; /* Tablet */ /* Mobile */ }
+
+@media (max-width: 1199px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_services.scss */ .services { padding: 80px 0; } }
+
+@media (max-width: 899px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_services.scss */ .services { padding: 60px 0; } }
+
+/* line 17, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_services.scss */ .services::before { content: ''; position: absolute; top: 0; left: 0; width: 400px; height: 1137px; background-image: url("./../img/backgrounds/lightning1.png"); background-size: cover; }
+
+/* line 29, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_services.scss */ .services::after { content: ''; position: absolute; bottom: 480px; right: 0; width: 400px; height: 1137px; background-image: url("./../img/backgrounds/lightning12.png"); background-size: cover; }
+
+/* line 42, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_services.scss */ .services__wrapper { position: relative; z-index: 2; }
+
+/* line 47, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_services.scss */ .services__subtitle { margin-bottom: 15px; }
+
+/* line 53, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_services.scss */ .services__title { max-width: 1350px; margin-bottom: 36px; }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider { position: relative; padding: 100px 0 300px; background-color: #F9FAFA; /* Desctop */ /* Tablet */ /* Mobile XS */ }
+
+@media (max-width: 1499px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider { padding-bottom: 150px; } }
+
+@media (max-width: 1199px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider { padding: 80px 0; } }
+
+@media (max-width: 599px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider { padding: 40px 0; } }
+
+/* line 22, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider::before { content: ''; position: absolute; top: 0; left: 0; width: 200px; height: 1137px; background-image: url("./../img/backgrounds/lightning3.png"); background-size: cover; }
+
+/* line 34, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider::after { content: ''; position: absolute; bottom: 0; right: 0; width: 200px; height: 1137px; background-image: url("./../img/backgrounds/lightning4.png"); background-size: cover; }
+
+/* line 47, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider__wrapper { position: relative; z-index: 2; }
+
+/* line 52, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider__title { margin-bottom: 75px; /* Desctop */ /* Mobile */ }
+
+@media (max-width: 1499px) { /* line 52, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider__title { text-align: center; } }
+
+@media (max-width: 899px) { /* line 52, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider__title { margin-bottom: 45px; } }
+
+/* line 66, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider__block { position: relative; width: 100%; height: auto; }
+
+/* line 72, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider__arrow { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); z-index: 9999; width: 43px; height: 43px; }
+
+/* line 81, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_slider.scss */ .slider__arrow--right { right: 0; }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts { position: relative; padding: 118px 0 104px; background-color: #F3F5FA; /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 1199px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts { padding: 80px 0; } }
+
+@media (max-width: 899px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts { padding: 60px 0; } }
+
+@media (max-width: 599px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts { padding: 40px 0; } }
+
+/* line 23, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts--down { padding: 104px 0 145px; /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 1199px) { /* line 23, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts--down { padding: 80px 0; } }
+
+@media (max-width: 899px) { /* line 23, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts--down { padding: 60px 0; } }
+
+@media (max-width: 599px) { /* line 23, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts--down { padding: 40px 0; } }
+
+/* line 42, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts::before { content: ''; position: absolute; top: 0; left: 0; width: 300px; height: 1137px; background-image: url("./../img/backgrounds/lightning5.png"); background-size: cover; }
+
+/* line 54, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts::after { content: ''; position: absolute; bottom: 0; right: 0; width: 300px; height: 1137px; background-image: url("./../img/backgrounds/lightning6.png"); background-size: cover; }
+
+/* line 67, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__wrapper { position: relative; z-index: 2; }
+
+/* line 72, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__content { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 899px) { /* line 72, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__content { -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; row-gap: 30px; } }
+
+@media (max-width: 599px) { /* line 72, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__content { row-gap: 20px; } }
+
+/* line 90, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__decs { width: 652px; /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 899px) { /* line 90, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__decs { max-width: 600px; } }
+
+@media (max-width: 599px) { /* line 90, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__decs { max-width: 270px; text-align: center; } }
+
+/* line 106, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__subtitle { margin-bottom: 29px; /* Tablet */ }
+
+@media (max-width: 1199px) { /* line 106, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__subtitle { margin-bottom: 20px; } }
+
+/* line 117, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__title { margin-bottom: 87px; /* Desctop */ /* Tablet */ }
+
+@media (max-width: 1499px) { /* line 117, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__title { margin-bottom: 50px; } }
+
+@media (max-width: 1199px) { /* line 117, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts__title { margin-bottom: 30px; } }
+
+/* line 131, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts.contacts--down .contacts__decs { width: 836px; /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 899px) { /* line 131, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts.contacts--down .contacts__decs { max-width: 570px; } }
+
+@media (max-width: 599px) { /* line 131, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts.contacts--down .contacts__decs { max-width: 270px; } }
+
+/* line 144, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts .title { /* Tablet */ }
+
+@media (max-width: 1199px) { /* line 144, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_contacts.scss */ .contacts .title { font-size: 32px; } }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages { position: relative; padding: 106px 0 98px; /* Tablet */ }
+
+@media (max-width: 1199px) { /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages { padding: 80px 0; } }
+
+/* line 11, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages::before { content: ''; position: absolute; top: 0; left: 0; width: 400px; height: 1137px; background-image: url("./../img/backgrounds/lightning1.png"); background-size: cover; }
+
+/* line 23, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages::after { content: ''; position: absolute; bottom: 0; right: 0; width: 300px; height: 1137px; background-image: url("./../img/backgrounds/lightning8.png"); background-size: cover; }
+
+/* line 36, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__wrapper { position: relative; z-index: 2; }
+
+/* line 41, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__title { margin-bottom: 67px; /* Desctop */ /* Tablet */ }
+
+@media (max-width: 1499px) { /* line 41, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__title { text-align: center; } }
+
+@media (max-width: 1199px) { /* line 41, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__title { margin-bottom: 40px; } }
+
+/* line 55, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__columns { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-column-gap: 30px; -moz-column-gap: 30px; column-gap: 30px; row-gap: 50px; /* Tablet */ }
+
+@media (max-width: 1199px) { /* line 55, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__columns { row-gap: 30px; } }
+
+/* line 68, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__columns .column { width: 710px; padding: 80px 0 80px 106px; border-radius: 10px; background-color: #F3F5FA; /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 899px) { /* line 68, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__columns .column { padding: 60px 0 60px 60px; } }
+
+@media (max-width: 599px) { /* line 68, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__columns .column { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; row-gap: 20px; width: 100%; padding: 30px 20px 30px; text-align: center; } }
+
+/* line 90, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_advantages.scss */ .advantages__columns .column span { max-width: 324px; }
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer { position: relative; padding: 100px 0; background-color: #001A31; }
+
+/* line 8, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer::before { content: ''; position: absolute; top: 0; left: -240px; width: 1290px; height: 454px; background-image: url("./../img/backgrounds/lightning9.png"); background-size: cover; /* Tablet */ /* Mobile */ /* Mobile XS */ }
+
+@media (max-width: 1199px) { /* line 8, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer::before { padding: 80px 0; } }
+
+@media (max-width: 899px) { /* line 8, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer::before { padding: 60px 0; top: 37%; } }
+
+@media (max-width: 599px) { /* line 8, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer::before { padding: 40px 0; } }
+
+/* line 37, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer__wrapper { position: relative; z-index: 2; color: #fff; }
+
+/* line 44, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer__content { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; /* Mobile */ }
+
+@media (max-width: 899px) { /* line 44, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer__content { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; row-gap: 30px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } }
+
+/* line 57, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer__nav-list { font-family: 'Roboto', sans-serif; font-size: 20px; line-height: 1.3; /* Mobile */ }
+
+@media (max-width: 899px) { /* line 57, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer__nav-list { text-align: center; } }
+
+/* line 67, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer__nav-list li { margin-bottom: 32px; }
+
+/* line 70, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer__nav-list li:last-child { margin-bottom: 0; }
+
+/* line 76, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer .contact { /* Mobile */ }
+
+@media (max-width: 899px) { /* line 76, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/для работы/work projects/underfloor-heating/sass/sections/_footer.scss */ .footer .contact { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; } }

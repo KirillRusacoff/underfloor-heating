@@ -1,0 +1,39 @@
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    
+
+    &__wrapper {
+        width: 77px;
+        height: 77px;
+        overflow: hidden;
+    }
+
+    span {
+        font-size: 64px;
+        font-weight: 900;
+        line-height: 1.09;
+        letter-spacing: 3.84px;
+
+        /* Desctop */
+        @media (max-width: 1499px) {
+            font-size: 48px;
+        }
+
+        /* Tablet */
+        @media (max-width: 1199px) {
+            font-size: 38px;
+        }
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        align-self: flex-start;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        align-self: center;
+    }
+}

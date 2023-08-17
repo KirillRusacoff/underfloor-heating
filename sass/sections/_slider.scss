@@ -1,0 +1,84 @@
+.slider {
+    position: relative;
+    padding: 100px 0 300px;
+
+    background-color: $backgroundLightColor2;
+
+    /* Desctop */
+    @media (max-width: 1499px) {
+        padding-bottom: 150px;
+    }
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        padding: 80px 0;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        padding: 40px 0;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 200px;
+        height: 1137px;
+        background-image: url('./../img/backgrounds/lightning3.png');
+        background-size: cover;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        width: 200px;
+        height: 1137px;
+        background-image: url('./../img/backgrounds/lightning4.png');
+        background-size: cover;
+    }
+}
+
+.slider__wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.slider__title {
+    margin-bottom: 75px;
+
+    /* Desctop */
+    @media (max-width: 1499px) {
+        text-align: center;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        margin-bottom: 45px;
+    }
+}
+
+.slider__block {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.slider__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+
+    width: 43px;
+    height: 43px;
+
+    &--right {
+        right: 0;
+    }
+}

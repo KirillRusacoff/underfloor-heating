@@ -1,0 +1,56 @@
+.services {
+    position: relative;
+    padding: 120px 0;
+
+    background-color: $backgroundLightColor;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        padding: 80px 0;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding: 60px 0;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 400px;
+        height: 1137px;
+        background-image: url('./../img/backgrounds/lightning1.png');
+        background-size: cover;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 480px;
+        right: 0;
+
+        width: 400px;
+        height: 1137px;
+        background-image: url('./../img/backgrounds/lightning12.png');
+        background-size: cover;
+    }
+}
+
+.services__wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.services__subtitle {
+    margin-bottom: 15px;
+
+    @extend%text;
+}
+
+.services__title {
+    max-width: 1350px;
+    margin-bottom: 36px;
+}

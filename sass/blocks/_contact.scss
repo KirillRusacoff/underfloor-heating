@@ -1,0 +1,103 @@
+.contact {
+    display: flex;
+    align-items: center;
+    column-gap: 58px;
+
+    &__icons {
+        display: flex;
+        column-gap: 32px;
+    
+        img {
+            width: 50px;
+            height: 50px;
+    
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        flex-direction: column-reverse;
+        row-gap: 20px;
+        align-self: flex-end;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        align-self: center;
+    }
+
+    &__data {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+
+        font-weight: 300;
+        line-height: 1.3;
+
+        /* Mobile */
+        @media (max-width: 899px) {
+            align-items: center;
+        }
+
+        /* Mobile XS */
+        @media (max-width: 599px) {
+            align-items: flex-start;
+        }
+
+        span {
+            position: relative;
+
+            /* Mobile XS */
+            @media (max-width: 599px) {
+                font-size: 14px;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -12px;
+
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+
+                border-radius: 50%;
+                background-color: #02FF39;
+            }
+        }    
+        a {
+            font-weight: 600;
+        }
+
+        button {
+            display: inline-block;
+            
+            background-color: transparent;
+
+            font-weight: 300;
+            font-size: 16px;
+            text-align: left;
+
+            transition: all .2s ease-in;
+
+            &:hover {
+                color: rgba(79, 149, 255, 0.70);
+                text-decoration: underline;
+            }
+        }
+    }
+
+        &--down {
+            flex-direction: column-reverse;
+            row-gap: 30px;
+        }
+}
+
+.footer .logo {
+    align-self: center;
+}

@@ -1,0 +1,20 @@
+.block {
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+
+    img {
+        width: 55px;
+        height: 51px;
+    }
+
+    span {
+        @extend%text;
+    }
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        column-gap: 10px;
+    }
+
+}

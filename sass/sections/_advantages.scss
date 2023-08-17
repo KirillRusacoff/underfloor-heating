@@ -1,0 +1,93 @@
+.advantages {
+    position: relative;
+
+    padding: 106px 0 98px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        padding: 80px 0;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 400px;
+        height: 1137px;
+        background-image: url('./../img/backgrounds/lightning1.png');
+        background-size: cover;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        width: 300px;
+        height: 1137px;
+        background-image: url('./../img/backgrounds/lightning8.png');
+        background-size: cover;
+    }
+}
+
+.advantages__wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.advantages__title {
+    margin-bottom: 67px;
+
+    /* Desctop */
+    @media (max-width: 1499px) {
+        text-align: center;
+    }
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        margin-bottom: 40px;
+    }
+}
+
+.advantages__columns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 50px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        row-gap: 30px;
+    }
+}
+
+.advantages__columns .column {
+    width: 710px;
+
+    padding: 80px 0 80px 106px;
+
+    border-radius: 10px;
+    background-color: $backgroundLightColor;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding: 60px 0 60px 60px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        flex-direction: column;
+        row-gap: 20px;
+        width: 100%;
+        padding: 30px 20px 30px;
+        text-align: center;
+    }
+
+    span {
+        max-width: 324px;
+    }
+}
